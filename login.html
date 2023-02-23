@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style/login.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="img/logo.png">
+	<title>META</title>
+</head>
+
+<body>
+	<section class="hero">
+		<div class="logo">
+			<img src="img/logo.png" alt="wait until a picture is loaded">
+		</div>
+
+
+		<div class="main-wrapper">
+			<form id="loginForm">
+				<h1>Log in</h1>
+
+
+				<div class="mail">
+					<label>E-mail:</label>
+					<input type="email" name="email" id="login_email" placeholder=" example@gmail.com">
+				</div>
+
+				<div class="password">
+					<label>Password:</label>
+					<input type="password" name="lozinka" id="login_password" placeholder=" *******">
+				</div>
+
+				<div class="btn">
+					<button>Log in</button>
+				</div>
+
+			</form>
+		</div>
+		<div class="cancel-btn">
+			<button class="previous" onclick="history.back()">Cancel</button>
+		</div>
+	</section>
+
+	<script src="js/index.js"></script>
+</body>
+
+</html>

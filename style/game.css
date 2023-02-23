@@ -1,0 +1,91 @@
+body {
+    max-width: 2200px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/gameBody.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.exit {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.exit .button .previous {
+  width: 100px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  height: auto;
+  background-color: hotpink;
+  padding: 5px;
+}
+
+.exit .button .previous:hover {
+  color: darkblue;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.description {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.description .container {
+  width: 90%;
+  margin: auto;
+  padding: 0;
+  background: transparent;
+}
+
+.description .container .heading {
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  background: transparent;
+  text-align: center;
+}
+
+.description .container .heading h1 {
+  color: hotpink;
+  font-size: 50px;
+  margin: auto;
+}
+
+.description .container .heading h2 {
+  color: white;
+  font-size: 40px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.description .container .heading h3 {
+  color: lightpink;
+  font-size: 26px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+
+canvas {
+    border: 1px solid hotpink;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    background-image: url('../img/gameBcg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
